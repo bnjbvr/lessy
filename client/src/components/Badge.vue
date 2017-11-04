@@ -29,7 +29,7 @@
 
     &.warn {
       color: #fff;
-      background-color: lighten($color-danger, 15%);
+      background-color: $color-warning;
     }
     &.alert {
       color: #fff;

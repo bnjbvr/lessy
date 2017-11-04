@@ -1,0 +1,67 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  line-height: 1.5rem;
+  color: $ly-color-grey-90;
+}
+
+@media(max-width: $small-screen-width) {
+  html {
+    font-size: 16px;
+  }
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  margin-bottom: 1.75rem;
+}
+
+h1 { font-size: 2rem; line-height: 2.5rem; }
+h2 { font-size: 1.5rem; line-height: 2rem; }
+h3 { font-size: 1rem; line-height: 1.5rem; }
+
+* + h1,
+* + h2,
+* + h3 {
+  margin-top: 1.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+p + ul,
+p + ol,
+p + dl,
+p + table {
+  margin-top: -.5rem;
+}
+
+small,
+.text-addition {
+  font-size: .8em;
+}
+
+.text-secondary {
+  color: $ly-color-grey-50;
+}
+.text-on-dark {
+  color: $ly-color-white;
+}
+.text-on-dark.text-secondary {
+  color: $ly-color-grey-30;
+}
+
+strong,
+.text-important {
+  font-weight: bold;
+}
